@@ -36,7 +36,7 @@ Currently, the setup implements 4 KISS 32A ESCs, 8 Feetech STS3032 servos and 2 
 | Servo 7 | 7 | 20\*21 | 
 | Servo 8 | 8 | 20\*21 | 
 
-The asterisk (\*) symbol indicates that the pins need to be connected together. This connection is required because the protocol utilizes a half-duplex serial protocol, 
+The asterisk (\*) symbol indicates that the pins need to be connected together. This connection is required because the servo utilizes a half-duplex serial protocol, 
 where transmission and reception occur on the same line.
 The Servo ID refers to the ID of the Serial servo that is connected to the BUS. The ID of the servo can be programmed using the board provided in this link: https://nl.aliexpress.com/item/1005004007925311.html.
 
