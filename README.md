@@ -16,7 +16,7 @@ It is important to note that for the proper utilization of this repository, the 
 # Wiring:
 Currently, the setup implements 4 KISS 32A ESCs, 8 Feetech STS3032 servos and 2 PWM servos connected to a Teensy 4.0 wired in this configuration: 
 
-KISS 32 ESCs connection:
+**KISS 32 ESCs connection:**
 |  ESCs | Signal PIN | Telemetry PIN |
 | ----- | ---------- | ------------- |
 | ESC 1 | 4 | 0 |
@@ -24,7 +24,7 @@ KISS 32 ESCs connection:
 | ESC 3 | 24 | 15 |
 | ESC 4 | 9 | 25 |
 
-Feetech STS3032 servos connection:
+**Feetech STS3032 servos connection:**
 |  Servo number | Servo ID | PIN |
 | ----- | ---------- | ------------- |
 | Servo 1 | 1 | 28\*29 | 
@@ -40,8 +40,14 @@ The asterisk (\*) symbol indicates that the pins need to be connected together. 
 where transmission and reception occur on the same line.
 The Servo ID refers to the ID of the Serial servo that is connected to the BUS. The ID of the servo can be programmed using the board provided in this link: https://nl.aliexpress.com/item/1005004007925311.html.
 
-Generic PWM servos connection: 
+**Generic PWM servos connection:**
 |  Servo number | PIN |
 | ----- | -------- |
 | Servo 9 | 2| 
 | Servo 10 | 3| 
+
+**Connection to the Autopilot:**
+|  AP PIN | Teensy PIN |
+| ----- | -------- |
+| AP UART TX | 16| 
+| AP UART RX | 17| 
