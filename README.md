@@ -27,14 +27,14 @@ Currently, the setup implements 4 KISS 32A ESCs, 8 Feetech STS3032 servos and 2 
 **Feetech STS3032 servos connection:**
 |  Servo number | Servo ID | PIN |
 | ----- | ---------- | ------------- |
-| Servo 1 | 1 | 28\*29 | 
-| Servo 2 | 2 | 28\*29 | 
-| Servo 3 | 3 | 28\*29 | 
-| Servo 4 | 4 | 28\*29 | 
-| Servo 5 | 5 | 20\*21 | 
-| Servo 6 | 6 | 20\*21 | 
-| Servo 7 | 7 | 20\*21 | 
-| Servo 8 | 8 | 20\*21 | 
+| Servo 1 | 1 | 20\*21 | 
+| Servo 2 | 2 | 20\*21 | 
+| Servo 3 | 3 | 20\*21 | 
+| Servo 4 | 4 | 20\*21 | 
+| Servo 5 | 5 | 28\*29 | 
+| Servo 6 | 6 | 28\*29 | 
+| Servo 7 | 7 | 28\*29 | 
+| Servo 8 | 8 | 28\*29 | 
 
 The asterisk (\*) symbol indicates that the pins need to be connected together. This connection is required because the servo utilizes a half-duplex serial protocol, 
 where transmission and reception occur on the same line.
