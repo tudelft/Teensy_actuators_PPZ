@@ -11,7 +11,7 @@ In the current setup, the refresh rate for the control and feedback of the motor
 The user has the flexibility to determine the refresh time of the UART communication packets with the Paparazzi UAV autopilot by modifying the "COMM_REFRESH_TIME" define in the 
 "servo_esc_control_w_feedback_T4_PPZ.ino" file. This define specifies the delay in microseconds for each subsequent packet sent back to the Autopilot.
 
-It is important to note that for the proper utilization of this repository, the Teensy_actuators_PPZ module should be loaded and executed on Paparazzi UAV.
+It is important to note that for the proper utilization of this repository, the serial_act_t4 module should be loaded and executed on Paparazzi UAV.
  
 # Wiring:
 Currently, the setup implements 4 KISS 32A ESCs, 8 Feetech STS3032 servos and 2 PWM servos connected to a Teensy 4.0 wired in this configuration: 
