@@ -105,6 +105,7 @@ int iter_counter_SERVO = 0;
 
 int servo_write_read_lock = 0; 
 
+//Reorganized the servos ID to match a previous design setup already on the vehicle. 
 int Servo_1_ID = 6; //Azimuth rotor 1
 int Servo_2_ID = 2; //Elevator rotor 1
 
