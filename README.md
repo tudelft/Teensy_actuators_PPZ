@@ -15,7 +15,7 @@ It is important to note that for the proper utilization of this repository, the 
  
 # Wiring:
 Currently, the setup implements 4 KISS 32A ESCs, 8 Feetech STS3032 servos and 2 PWM servos connected to a Teensy 4.0 wired in this configuration:
-[Teensy_fbw_scheme.pdf](Teensy_actuators_PPZ/Documentation/Teensy_fbw_scheme.pdf)
+[Teensy_fbw_scheme.pdf](Documentation/Teensy_fbw_scheme.pdf)
 
 **KISS 32 ESCs connection:**
 |  ESCs | Signal PIN | Telemetry PIN |
