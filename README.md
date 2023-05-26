@@ -14,8 +14,8 @@ The user has the flexibility to determine the refresh time of the UART communica
 It is important to note that for the proper utilization of this repository, the serial_act_t4 module should be loaded and executed on Paparazzi UAV.
  
 # Wiring:
-Currently, the setup implements 4 KISS 32A ESCs, 8 Feetech STS3032 servos and 2 PWM servos connected to a Teensy 4.0 wired in this configuration: 
-[Teensy_fbw_scheme.pdf](https://github.com/tudelft/Teensy_actuators_PPZ/Documentation/Teensy_fbw_scheme.pdf)
+Currently, the setup implements 4 KISS 32A ESCs, 8 Feetech STS3032 servos and 2 PWM servos connected to a Teensy 4.0 wired in this configuration:
+[Teensy_fbw_scheme.pdf](https://github.com/tudelft/Teensy_actuators_PPZ/files/11572114/Teensy_fbw_scheme.pdf)
 
 **KISS 32 ESCs connection:**
 |  ESCs | Signal PIN | Telemetry PIN |
