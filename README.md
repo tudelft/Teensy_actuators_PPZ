@@ -4,7 +4,7 @@ This repository provides the capability to establish a connection between the Pa
 For the control of ESCs, the Teensyshot library from https://github.com/jacqu/teensyshot is utilized.
 Servos can be controlled in both PWM mode and Serial mode. The testing was conducted with the Feetech STS3032 servos (https://nl.aliexpress.com/item/1005001678105997.html), 
 but any serial servos employing the dinamixel half-duplex serial communication can be employed. 
-A more detailed explanation of the serial servos protocol can be found in the Documentation/Serial_servo_protocol.pdf file.
+A more detailed explanation of the serial servos protocol can be found in [Serial_servo_protocol.pdf](Documentation/Serial_servo_protocol.pdf).
 
 In the current setup, the refresh rate for the control and feedback of the motors is approximately 500 Hz, while the refresh rate for the control and feedback of the servos is approximately 350 Hz.
 
