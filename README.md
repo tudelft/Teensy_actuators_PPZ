@@ -15,7 +15,7 @@ It is important to note that for the proper utilization of this repository, the 
  
 # Wiring:
 Currently, the setup implements 4 KISS 32A ESCs, 8 Feetech STS3032 servos and 2 PWM servos connected to a Teensy 4.0 wired in this configuration: 
-
+[Teensy_fbw_scheme.pdf](https://github.com/tudelft/Teensy_actuators_PPZ/Documentation/Teensy_fbw_scheme.pdf)
 **KISS 32 ESCs connection:**
 |  ESCs | Signal PIN | Telemetry PIN |
 | ----- | ---------- | ------------- |
@@ -36,8 +36,7 @@ Currently, the setup implements 4 KISS 32A ESCs, 8 Feetech STS3032 servos and 2 
 | Servo 7 | 7 | 28\*29 | 
 | Servo 8 | 8 | 28\*29 | 
 
-The asterisk (\*) symbol indicates that the pins need to be connected together. This connection is required because the servo utilizes a half-duplex serial protocol, 
-where transmission and reception occur on the same line.
+The asterisk (\*) symbol indicates that the pins need to be connected together. This connection is required because the servo utilizes a half-duplex serial protocol, where transmission and reception occur on the same line.
 The Servo ID refers to the ID of the Serial servo that is connected to the BUS. The ID of the servo can be programmed using the board provided in this link: https://nl.aliexpress.com/item/1005004007925311.html.
 
 **Generic PWM servos connection:**
