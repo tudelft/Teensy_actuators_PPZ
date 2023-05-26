@@ -7,7 +7,7 @@
 
 #define COMMUNICATION_SERIAL Serial4
 #define COMMUNICATION_SERIAL_BAUD 1500000
-#define COMM_REFRESH_TIME 3000 // ~500 Hz message loop 
+#define COMM_REFRESH_TIME 2000 // ~500 Hz message loop 
 #define PIN_LED_T4 13
 
 byte START_BYTE_SERIAL_ACT_T4=0x9A;
@@ -54,8 +54,8 @@ float Servo9_state, Servo9_state_old, Servo10_state, Servo10_state_old;
 
 #define BAUDRATE_SERVO  1000000 //Baudrate for the servo communication.
 #define SERVO_MAX_COMD 4096 //It tells us the step we use to control the servo angle
-#define SERVO_COMM_MARGIN 70 //[uS] Margin of time given to the servo for the response [20] [100]
-#define TIME_OF_SERVO_TX 150 //[uS] Margin of time needed to avoid TX conflicts when the servos are killed [80] [160]
+#define SERVO_COMM_MARGIN 70 //[uS] Margin of time given to the servo for the response
+#define TIME_OF_SERVO_TX 150 //[uS] Margin of time needed to avoid TX conflicts when the servos are killed
 elapsedMicros last_time_write_read_servo_cnt = 0;
 int ack_write_read = 0; 
 
@@ -165,7 +165,7 @@ void setup(void)
 
     //LED to monitor the connection with Pixhawk
     pinMode(PIN_LED_T4, OUTPUT);
-    analogWriteFrequency(PIN_LED_T4, 500); // Servo frequency
+    analogWriteFrequency(PIN_LED_T4, 500);
     
     //Start the timer for the Communication and Servos 
     SERVO_COMM_WRITE_READ_TIMER.begin(ServosAndCommTic, 10); //Interrupt routine for the tick to servos and communication
