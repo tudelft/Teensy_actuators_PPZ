@@ -6,7 +6,7 @@
 // -------------------------- COMMUNICATION DEFINED VARIABLES-----------------------------
 
 #define COMMUNICATION_SERIAL Serial4
-#define COMMUNICATION_SERIAL_BAUD 1500000
+#define COMMUNICATION_SERIAL_BAUD 921600
 #define COMM_REFRESH_TIME 2000 // ~500 Hz message loop 
 #define PIN_LED_T4 13
 
